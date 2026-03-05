@@ -1,0 +1,45 @@
+#box {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(30, 89, 250);
+  border: 5px solid;
+  font-size: 10em;
+  text-align: center;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+@keyframes slideleft {
+  from {
+    transform: translateX(100%);
+  }
+}
+@keyframes sliderieght {
+  to {
+    transform: translateX(300%);
+  }
+}
+@keyframes slideup {
+  from {
+    transform: translateY(300%);
+  }
+}
+@keyframes slidedown {
+  to {
+    transform: translateY(300%);
+  }
+}
+@keyframes rotate {
+  25% {
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes grow {
+  100% {
+    transform: scale(2, 2);
+  }
+}
+@keyframes fade {
+  100% {
+    opacity: 0;
+  }
+}
