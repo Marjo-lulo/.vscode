@@ -78,19 +78,19 @@ button {
   transition: background-color 0.3s ease;
 }
 
-button:hover{
-    background-color: #4a0fb8;
+button:hover {
+  background-color: #4a0fb8;
 }
 
-.form-group.error input{
-    border-color: #e74c3c;
+.form-group.error input {
+  border-color: #e74c3c;
 }
 
-.form-group.success input{
-    border-color: #27ae60;
+.form-group.success input {
+  border-color: #27ae60;
 }
 
-.form-group.error small{
-    visibility: visible;
-    color: #e74c3c;
+.form-group.error small {
+  visibility: visible;
+  color: #e74c3c;
 }
