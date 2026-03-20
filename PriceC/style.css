@@ -6,9 +6,9 @@
 }
 
 :root {
-  --priamry-color: #1978e6;
-  --secondary-dark: rgb(30, 96, 196);
-  --secondary-light: #2b9afb;
+  --priamry-color: #0b77f3;
+  --secondary-dark: rgb(32, 110, 227);
+  --secondary-light: #d5dadd;
   --bg-dark: #1a1a1a;
   --text-gray: #9ca3af;
   --text-light: #f3f4f6;
@@ -331,4 +331,22 @@ h3 {
     .quote {
         padding: 30px;
     }
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(25, 120, 230, 0.7 );
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(25, 120, 230, 0 );
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(25, 120, 230, 0 );
+    }
+}
+
+.btn-accent {
+    animation: pulse 2s infinite;
 }
