@@ -296,3 +296,39 @@ h3 {
     font-size: 1.1rem;
     color: var(--priamry-color);
 }
+
+@media (max-width: 768px) {
+    body {
+        padding: 30px 15px;
+    }
+
+    header {
+        margin-bottom: 30px;
+    }
+
+    hderer h1 {
+        font-size: 2rem;
+    }
+
+    .pricing-cards {
+        grid-template-columns: 1fr;
+        min-width: 400px;
+        margin: 0 auto 40px;
+    }
+
+    .card, .popular {
+        transform: none;
+    }
+
+    .card:hover, .popular:hover {
+        transform: translateY(-5px);
+    }
+
+    .testimnial {
+        margin-top: 40px;
+    }
+
+    .quote {
+        padding: 30px;
+    }
+}
