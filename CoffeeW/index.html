@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BrewHaven</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header-container">
+        <a href="#" class="logo">
+          <i class="fa-solid fa-mug-hot logo-icon"></i>
+          <div class="logo-text">Brew <span>Haven</span></div>
+        </a>
+
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#loc">Location</a></li>
+            <li><a href="#loc">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="nav-buttons">
+          <a href="#" class="btn btn-secondary">Sign In</a>
+          <a href="#" class="btn btn-primary">Order Online</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-subtitle">
+            <i class="fas fa-seedling"></i>
+            Ethically Sourced Beans
+          </div>
+          <h1 class="hero-title">
+            Artisan Coffee <br /><span>Crafted with Passion</span>
+          </h1>
+          <p class="hero-text">
+            Discover single-origin coffees roasted to perfection in small batches
+            for exceptional flavor.Experience the jorney from bean to cup with
+            our master roasters.
+          </p>
+          <div class="hero-buttons">
+            <a href="#products" class="btn btn-primary">Explore Our Blends</a>
+            <a href="#" class="btn btn-secondary">Visit Our Cafe</a>
+          </div>
+        </div>
+        <img src="images/4.jpg" alt="" width="370px" height="500px" style="padding-left: 60px; border-radius: 5px;" mask-image: radial-gradient(ellipse 80% 90% at center, black 40%, transparent 75%);
+        -webkit-mask-image: radial-gradient(ellipse 80% 90% at center, black 40%, transparent 75%);/>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-subtitle">Our Selection</div>
+          <h2 class="section-title">Signature Coffee Blends</h2>
+          <p class="section-desc">Each batch is carefully roasted to highlight the unique characterics of the beans.</p>
+        </div>
+        <div class="product-grid">
+          <div class="product-card">
+            <div class="product-img">
+              <img src="images/1.jpg" alt="Ethiopian Yirgacheffe">
+            </div>
+            <div class="product-info">
+              <div class="product-tag">BESTSELLER</div>
+              <h3 class="product-title">Ethiopian Yirgacheffe</h3>
+              <p class="product-desc">Floral notes with bright citrus acidity and a tea-like body. Light roast.</p>
+              <div class="product-footer">
+                <div class="product-price">$18.99</div>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img src="images/2.jpg" alt="Colombian Supremo">
+            </div>
+            <div class="product-info">
+              <div class="product-tag">NEW</div>
+              <h3 class="product-title">Colombian Supremo</h3>
+              <p class="product-desc">Rich and full-bodied with balanced acidity and a smooth finish. Medium roast.</p>
+              <div class="product-footer">
+                <div class="product-price">$16.99</div>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-img">
+              <img src="images/3.jpg" alt="Sumatra Mandheling">
+            </div>
+            <div class="product-info">
+              <div class="product-tag">LIMITED</div>
+              <h3 class="product-title">Sumatra Mandheling</h3>
+              <p class="product-desc">Earthy and full-bodied with low acidity and a chocolatey finish. Dark roast.</p>
+              <div class="product-footer">
+                <div class="product-price">$19.99</div>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container" id="loc">
+        <div class="footer-content">
+          <div class="footer-column">
+            <h3>About BrewHaven</h3>
+            <p style="color: var(--coffee-accent); margin-bottom: 20px;">Artisan coffee roasters dedicated to quality, sustainability, and perfect cup.</p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#">Coffee Blends</a></li>
+              <li><a href="#">Brewing Guides</a></li>
+              <li><a href="#">Sustainability</a></li>
+              <li><a href="#">Wholesale</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <ul class="footer-links">
+              <li><i class="fas fa-map-marker-alt"></i> 131 Coffee Street, Albania</li>
+              <li><i class="fas fa-phone"></i>+355 068 123 4567</li>
+              <li><i class="fas fa-envelope"></i> info@brewhaven.com</li>
+              <li><i class="fas fa-clock"></i> Mon-Fri: 9AM-6PM</li>
+            </ul>
+          </div>
+        </div>  
+        <div class="copyright">
+          &copy; 2026 Marjo Lulo. All rights reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -5,7 +5,7 @@
   border: 5px solid;
   font-size: 10em;
   text-align: center;
-  animation-name: fade;
+  animation-name: rotate;
   animation-duration: 2s;
 }
 @keyframes slideleft {
